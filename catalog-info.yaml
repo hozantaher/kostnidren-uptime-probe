@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kostnidren-uptime-probe
+  description: 'Uptime probe (public)'
+  annotations:
+    github.com/project-slug: hozantaher/kostnidren-uptime-probe
+  tags:
+    - ops
+spec:
+  type: library
+  lifecycle: production
+  owner: hozantaher
+  system: ops
