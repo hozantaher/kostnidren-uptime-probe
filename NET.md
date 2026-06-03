@@ -42,7 +42,7 @@ Tak každý artefakt vidí nejen sebe v celku, ale i živé odrazy ostatních ar
 - **feed-whatsapp** (live) —  · https://evolution-api-production-7664.up.railway.app
 
 ## ops — 
-- **backstage-portal** (live) — hozantaher/backstage-portal · https://backstage-production-38cf.up.railway.app
+- **backstage-portal** (live) — hozantaher/backstage-portal
 - **kostnidren-uptime-probe** (live) ◀ TENTO — hozantaher/kostnidren-uptime-probe
 
 ## sales — Chatwoot sales surface + the gateway/skills the salesperson programs
