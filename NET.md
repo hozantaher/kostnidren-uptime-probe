@@ -9,7 +9,7 @@ Tento uzel je jeden artefakt v síti. **Celek se zrcadlí zde** — z kteréhoko
 Seznam níže je STRUKTURA (statický odraz). ŽIVÝ stav celku (kdo právě žije / padl)
 drží event-bus páteř — peer, ne střed. Z KTERÉHOKOLI uzlu:
 ```
-curl https://event-bus-production.up.railway.app/consume/net-health   # živý odraz všech uzlů
+curl https://event-bus-production.up.railway.app/peek/net-health      # živý odraz všech uzlů (NEdestruktivní)
 curl https://event-bus-production.up.railway.app/streams              # tok sítě
 ```
 Tak každý artefakt vidí nejen sebe v celku, ale i živé odrazy ostatních artefaktů.
