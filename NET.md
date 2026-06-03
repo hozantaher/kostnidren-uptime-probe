@@ -14,6 +14,11 @@ curl https://event-bus-production.up.railway.app/streams              # tok sít
 ```
 Tak každý artefakt vidí nejen sebe v celku, ale i živé odrazy ostatních artefaktů.
 
+## ☁️ Kontrolní plochy (multi-cloud) — plná struktura: `workspace/CHOBOTNICE.md`
+Síť neběží jen na GitHubu — ovládáme **5 ploch**: GitHub (repos) · Railway (10 deploys) ·
+DigitalOcean (droplet server1 + App motoristesobe.cz + managed DB + 3 DNS) · Bitbucket (git/SSH) · local-mac.
+Hardening brána: `net-check.sh` (struktura+secrets+cloud). Bezpečnost: `SECURITY-POSTURE.md`.
+
 ## apps — Cars products
 - **ads-app** (live) — hozantaher/ads-app · https://cars.messing.dev
 
