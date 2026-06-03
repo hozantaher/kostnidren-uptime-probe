@@ -19,5 +19,3 @@ spec:
   lifecycle: production
   owner: hozantaher
   system: ops
-  dependsOn:
-    - component:event-bus
