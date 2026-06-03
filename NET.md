@@ -5,6 +5,15 @@ Tento uzel je jeden klenot v síti. **Celek se zrcadlí zde** — z kteréhokoli
 
 > **tento klenot: `kostnidren-uptime-probe`**
 
+## 🪞 Živé zrcadlo — jak uzel vidí pavučinu (Indra)
+Seznam níže je STRUKTURA (statický odraz). ŽIVÝ stav celku (kdo právě žije / padl)
+drží event-bus páteř — peer, ne střed. Z KTERÉHOKOLI uzlu:
+```
+curl https://event-bus-production.up.railway.app/consume/net-health   # živý odraz všech uzlů
+curl https://event-bus-production.up.railway.app/streams              # tok sítě
+```
+Tak každý klenot vidí nejen sebe v celku, ale i živé odrazy ostatních klenotů.
+
 ## apps — Cars products
 - **ads-app** (live) — hozantaher/ads-app · https://cars.messing.dev
 
