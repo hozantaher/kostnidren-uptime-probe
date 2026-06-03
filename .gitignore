@@ -1,0 +1,16 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Local secrets / env (this repo's secrets live in GitHub Actions, never on disk)
+.env
+.env.*
+*.local
+
+# Local probe scratch output
+results.txt
+/tmp/
