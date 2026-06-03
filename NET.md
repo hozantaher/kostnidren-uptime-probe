@@ -20,7 +20,7 @@ Tento uzel je jeden klenot v síti. **Celek se zrcadlí zde** — z kteréhokoli
 
 ## data — Private data + acquisition (nábor) core — never exposed to sales
 - **data-core** (live) — hozantaher/data-core · https://machinery-outreach-production.up.railway.app
-- **event-bus** (todo) — 
+- **event-bus** (live) — hozantaher/event-bus · https://event-bus-production.up.railway.app
 - **ops-audit** (todo) — 
 - **privacy-mail-gateway** (code-done) — hozantaher/privacy-mail-gateway
 - **scheduler** (todo) — 
@@ -33,6 +33,7 @@ Tento uzel je jeden klenot v síti. **Celek se zrcadlí zde** — z kteréhokoli
 - **feed-whatsapp** (live) —  · https://evolution-api-production-7664.up.railway.app
 
 ## ops — 
+- **backstage-portal** (live) — hozantaher/backstage-portal · https://backstage-production-38cf.up.railway.app
 - **kostnidren-uptime-probe** (live) ◀ TENTO — hozantaher/kostnidren-uptime-probe
 
 ## sales — Chatwoot sales surface + the gateway/skills the salesperson programs
@@ -67,4 +68,4 @@ Tento uzel je jeden klenot v síti. **Celek se zrcadlí zde** — z kteréhokoli
 - **pokutomat** (active) — hozantaher/pokutomat
 - **primaauta** (active) — hozantaher/primaauta
 
-_Odraz 42 uzlů. Aktualizuj: `make reflect` ve workspace._
+_Odraz 43 uzlů. Aktualizuj: `make reflect` ve workspace._
