@@ -7,8 +7,17 @@ metadata:
     github.com/project-slug: hozantaher/kostnidren-uptime-probe
   tags:
     - ops
+  links:
+    - url: https://github.com/hozantaher/kostnidren-uptime-probe
+      title: Repo
+      icon: github
+    - url: https://event-bus-production.up.railway.app/net
+      title: Živá pavučina (Indra odraz)
+      icon: dashboard
 spec:
   type: library
   lifecycle: production
   owner: hozantaher
   system: ops
+  dependsOn:
+    - component:event-bus
