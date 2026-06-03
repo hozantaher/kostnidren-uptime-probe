@@ -30,8 +30,13 @@ Tak každý artefakt vidí nejen sebe v celku, ale i živé odrazy ostatních ar
 ## data — Private data + acquisition (nábor) core — never exposed to sales
 - **data-core** (live) — hozantaher/data-core · https://machinery-outreach-production.up.railway.app
 - **event-bus** (live) — hozantaher/event-bus · https://event-bus-production.up.railway.app
+- **llm-runner** (code-done) — hozantaher/llm-runner
+- **mail-lab-api** (code-done) — hozantaher/mail-lab-api
+- **operator-practice** (code-done) — hozantaher/operator-practice
 - **ops-audit** (todo) — 
+- **orchestrator** (code-done) — hozantaher/orchestrator
 - **privacy-mail-gateway** (code-done) — hozantaher/privacy-mail-gateway
+- **relay** (code-done) — hozantaher/relay
 - **scheduler** (todo) — 
 - **skill-registry** (todo) — 
 
@@ -77,4 +82,4 @@ Tak každý artefakt vidí nejen sebe v celku, ale i živé odrazy ostatních ar
 - **pokutomat** (active) — hozantaher/pokutomat
 - **primaauta** (active) — hozantaher/primaauta
 
-_Odraz 43 uzlů. Aktualizuj: `make reflect` ve workspace._
+_Odraz 48 uzlů. Aktualizuj: `make reflect` ve workspace._
