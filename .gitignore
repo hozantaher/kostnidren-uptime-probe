@@ -14,3 +14,10 @@ Thumbs.db
 # Local probe scratch output
 results.txt
 /tmp/
+
+# secret hygiene (net-wide hardening 2026-06-03)
+*.key
+*.pem
+*.private
+*.p12
+*.pfx
