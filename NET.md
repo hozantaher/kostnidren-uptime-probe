@@ -9,6 +9,7 @@ Tento uzel je jeden artefakt v síti. **Celek se zrcadlí zde** — z kteréhoko
 Seznam níže je STRUKTURA (statický odraz). ŽIVÝ stav celku (kdo právě žije / padl)
 drží event-bus páteř — peer, ne střed. Z KTERÉHOKOLI uzlu:
 ```
+# (mesh-interní: až bude EVENTBUS_TOKEN nastaven, přidej -H "X-Bus-Token: $EVENTBUS_TOKEN")
 curl https://event-bus-production.up.railway.app/peek/net-health      # živý odraz všech uzlů (NEdestruktivní)
 curl https://event-bus-production.up.railway.app/streams              # tok sítě
 ```
@@ -21,12 +22,13 @@ Hardening brána: `net-check.sh` (struktura+secrets+cloud). Bezpečnost: `SECURI
 
 ## apps — Cars products
 - **ads-app** (live) — hozantaher/ads-app · https://cars.messing.dev
+- **messing-landing** (live) — hozantaher/messing-landing · https://messing.dev
 
 ## clients — Client / agency work
 - **kostnidren** (paused) — git@bitbucket.org:poseidonvltavy/wp_kostnidren.git
 - **motoristesobe** (paused) — https://bitbucket.org/poseidonvltavy/motoristesobe.git
 - **pyhynek** (paused) — hozantaher/pyhynek
-- **safran-express** (paused) — hozantaher/safran-express
+- **safran-express** (active) — hozantaher/safran-express
 - **tomas-hynek** (paused) — hozantaher/tomas-hynek
 
 ## collab — 
@@ -84,7 +86,6 @@ Hardening brána: `net-check.sh` (struktura+secrets+cloud). Bezpečnost: `SECURI
 - **garaaage-monorepo** (reference) — hozantaher/garaaage-monorepo
 - **generace-motor** (active) — hozantaher/generace-motor
 - **messing-369** (paused) — hozantaher/messing-369
-- **naborovky** (paused) — hozantaher/naborovky
 - **pokutomat** (active) — hozantaher/pokutomat
 - **primaauta** (active) — hozantaher/primaauta
 
